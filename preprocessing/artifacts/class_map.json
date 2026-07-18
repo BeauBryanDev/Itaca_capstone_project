@@ -1,0 +1,6 @@
+{
+  "Inicial": 0,
+  "En Desarrollo": 1,
+  "Definido": 2,
+  "Optimizado": 3
+}
