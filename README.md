@@ -18,7 +18,7 @@ Dataset de 3000 diagnósticos históricos provistos por Ítaca (`diagnosticos_it
 
 ## Estructura del proyecto
 
-```
+```code
 .
 ├── etl/
 │   └── etl_stage1_eda.py        # ETL Stage 1 + EDA (limpieza y análisis)
@@ -43,7 +43,7 @@ Requisitos: Python 3.10+, pandas, numpy. Para el entrenamiento (etapas siguiente
 ## Cronograma
 
 | Semana | Entregable |
-|--------|------------|
+| -------- | ------------ |
 | 1 | ETL + EDA, arquitectura del modelo |
 | 2 | Entrenamiento DNN, evaluación, backend FastAPI |
 | 3 | Frontend React, integración end-to-end, informe final |
