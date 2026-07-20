@@ -220,3 +220,6 @@ __marimo__/
 
 # Ignore SPECS files Folder
 SPECS/
+
+# Archivo de instrucciones
+TASK_A_TABULAR.md
