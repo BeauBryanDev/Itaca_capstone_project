@@ -153,7 +153,7 @@ DIAG_0150,Servicios,Pequena,0.55,128000000,Usamos un ERP pero nos falta integrac
 DIAG_0151,Retail,Grande,0.57,131000000,Usamos un ERP pero nos falta integración con la parte de ventas.,Definido,Integrar el ERP de inventarios con el CRM para campañas de fidelización.
 DIAG_0152,Manufactura,Micro,0.18,9000000,Perdemos mucha información porque todo se anota en cuadernos. Nos gustaría mejorar pronto.,Inicial,Estandarizar el registro diario de mermas e inventario en plantillas compartidas.
 DIAG_0153,Servicios,Mediana,0.69,104000000,Las áreas se comunican bien gracias a nuestras herramientas tecnológicas.,Definido,Automatizar la facturación y las encuestas de satisfacción post-servicio.
-DIAG_0154,Servicios,Mediana,1.0,397000000,El equipo es autónomo y la analítica nos guía en cada decisión. Nos gustaría mejorar pronto.,Optimizado,Utilizar analítica avanzada para hiper-personalización y recomendaciones de up-selling.
+DIAG_0154,Servicios,Mediana,1,397000000,El equipo es autónomo y la analítica nos guía en cada decisión. Nos gustaría mejorar pronto.,Optimizado,Utilizar analítica avanzada para hiper-personalización y recomendaciones de up-selling.
 DIAG_0155,Servicios,Mediana,0.5,28000000,Intentamos usar software básico pero el equipo no se adapta del todo. Nos gustaría mejorar pronto.,En Desarrollo,Implementar un CRM para el seguimiento estructurado de ventas y clientes.
 DIAG_0156,Servicios,Mediana,0.67,137000000,Tenemos procesos estandarizados en la mayoría de áreas clave.,Definido,Automatizar la facturación y las encuestas de satisfacción post-servicio.
 DIAG_0157,Tecnologia,Grande,0.96,267000000,Operamos con metodologías ágiles y sistemas integrados en la nube.,Optimizado,Aplicar MLOps y analítica predictiva para optimizar el ciclo de vida del software.
@@ -366,7 +366,7 @@ DIAG_0363,Servicios,Grande,0.5,120000000,Tenemos procesos estandarizados en la m
 DIAG_0364,Tecnologia,Mediana,0.8,495000000,Operamos con metodologías ágiles y sistemas integrados en la nube.,Optimizado,Aplicar MLOps y analítica predictiva para optimizar el ciclo de vida del software.
 DIAG_0365,Retail,Micro,0.1,4000000,"Todo es manual, dependemos de una sola persona para la contabilidad. Nos gustaría mejorar pronto.",Inicial,Implementar un sistema POS básico para abandonar el registro manual de ventas.
 DIAG_0366,Manufactura,Mediana,0.96,190000000,Operamos con metodologías ágiles y sistemas integrados en la nube.,Optimizado,Implementar sensores IoT en maquinaria para mantenimiento predictivo automatizado.
-DIAG_0367,Servicios,Grande,1.0,265000000,El equipo es autónomo y la analítica nos guía en cada decisión.,Optimizado,Utilizar analítica avanzada para hiper-personalización y recomendaciones de up-selling.
+DIAG_0367,Servicios,Grande,1,265000000,El equipo es autónomo y la analítica nos guía en cada decisión.,Optimizado,Utilizar analítica avanzada para hiper-personalización y recomendaciones de up-selling.
 DIAG_0368,Tecnologia,Micro,0.08,7000000,"Todo es manual, dependemos de una sola persona para la contabilidad.",Inicial,Mapear flujos de trabajo de desarrollo y usar repositorios de código centralizados.
 DIAG_0369,Tecnologia,Micro,0.02,7000000,"No tenemos procesos definidos, usamos hojas de cálculo desordenadas.",Inicial,Mapear flujos de trabajo de desarrollo y usar repositorios de código centralizados.
 DIAG_0370,Manufactura,Micro,0.05,10000000,"Todo es manual, dependemos de una sola persona para la contabilidad.",Inicial,Estandarizar el registro diario de mermas e inventario en plantillas compartidas.
@@ -471,7 +471,7 @@ DIAG_0468,Tecnologia,Pequena,0.16,1000000,"No tenemos procesos definidos, usamos
 DIAG_0469,Tecnologia,Grande,0.95,309000000,Operamos con metodologías ágiles y sistemas integrados en la nube.,Optimizado,Aplicar MLOps y analítica predictiva para optimizar el ciclo de vida del software.
 DIAG_0470,Servicios,Micro,0.04,10000000,"El trabajo es muy empírico, no hay documentación de lo que hacemos.",Inicial,Digitalizar la base de datos de clientes y centralizar la agenda de servicios.
 DIAG_0471,Retail,Grande,0.92,402000000,Operamos con metodologías ágiles y sistemas integrados en la nube.,Optimizado,Automatizar pronóstico de demanda con modelos predictivos en tiempo real.
-DIAG_0472,Retail,Pequena,0.0,7000000,"No tenemos procesos definidos, usamos hojas de cálculo desordenadas. Nos gustaría mejorar pronto.",Inicial,Implementar un sistema POS básico para abandonar el registro manual de ventas.
+DIAG_0472,Retail,Pequena,0,7000000,"No tenemos procesos definidos, usamos hojas de cálculo desordenadas. Nos gustaría mejorar pronto.",Inicial,Implementar un sistema POS básico para abandonar el registro manual de ventas.
 DIAG_0473,Manufactura,Micro,0.2,34000000,Intentamos usar software básico pero el equipo no se adapta del todo.,En Desarrollo,Implementar un sistema MRP básico para la planificación de materiales.
 DIAG_0474,Manufactura,Micro,0.11,4000000,"No tenemos procesos definidos, usamos hojas de cálculo desordenadas.",Inicial,Estandarizar el registro diario de mermas e inventario en plantillas compartidas.
 DIAG_0475,Tecnologia,Pequena,0.53,79000000,Las áreas se comunican bien gracias a nuestras herramientas tecnológicas.,Definido,Implementar CI/CD y pruebas automatizadas para garantizar calidad en entregas.
@@ -592,7 +592,7 @@ DIAG_0589,Tecnologia,Micro,0.18,10000000,"Todo es manual, dependemos de una sola
 DIAG_0590,Retail,Micro,0.14,2000000,"Todo es manual, dependemos de una sola persona para la contabilidad.",Inicial,Implementar un sistema POS básico para abandonar el registro manual de ventas.
 DIAG_0591,Retail,Grande,0.85,175000000,Operamos con metodologías ágiles y sistemas integrados en la nube. Nos gustaría mejorar pronto.,Optimizado,Automatizar pronóstico de demanda con modelos predictivos en tiempo real.
 DIAG_0592,Retail,Micro,0.07,6000000,"El trabajo es muy empírico, no hay documentación de lo que hacemos.",Inicial,Implementar un sistema POS básico para abandonar el registro manual de ventas.
-DIAG_0593,Tecnologia,Micro,0.0,3000000,"Todo es manual, dependemos de una sola persona para la contabilidad.",Inicial,Mapear flujos de trabajo de desarrollo y usar repositorios de código centralizados.
+DIAG_0593,Tecnologia,Micro,0,3000000,"Todo es manual, dependemos de una sola persona para la contabilidad.",Inicial,Mapear flujos de trabajo de desarrollo y usar repositorios de código centralizados.
 DIAG_0594,Retail,Mediana,0.77,129000000,Las áreas se comunican bien gracias a nuestras herramientas tecnológicas.,Definido,Integrar el ERP de inventarios con el CRM para campañas de fidelización.
 DIAG_0595,Tecnologia,Mediana,0.55,101000000,Las áreas se comunican bien gracias a nuestras herramientas tecnológicas.,Definido,Implementar CI/CD y pruebas automatizadas para garantizar calidad en entregas.
 DIAG_0596,Servicios,Mediana,0.71,111000000,Documentamos todo y tenemos claridad de los roles y responsabilidades.,Definido,Automatizar la facturación y las encuestas de satisfacción post-servicio.
@@ -602,7 +602,7 @@ DIAG_0599,Servicios,Pequena,0.16,10000000,Perdemos mucha información porque tod
 DIAG_0600,Retail,Grande,0.23,36000000,Hay guías básicas pero no siempre se cumplen los estándares.,En Desarrollo,Centralizar el inventario de todas las sucursales en un único sistema digital.
 DIAG_0601,Tecnologia,Mediana,0.2,43000000,Intentamos usar software básico pero el equipo no se adapta del todo.,En Desarrollo,Integrar herramientas de tickets con repositorios y documentar APIs.
 DIAG_0602,Retail,Mediana,0.33,25000000,Estamos empezando a documentar nuestros procesos pero falta mucho.,En Desarrollo,Centralizar el inventario de todas las sucursales en un único sistema digital.
-DIAG_0603,Servicios,Pequena,0.0,3000000,"Todo es manual, dependemos de una sola persona para la contabilidad.",Inicial,Digitalizar la base de datos de clientes y centralizar la agenda de servicios.
+DIAG_0603,Servicios,Pequena,0,3000000,"Todo es manual, dependemos de una sola persona para la contabilidad.",Inicial,Digitalizar la base de datos de clientes y centralizar la agenda de servicios.
 DIAG_0604,Servicios,Grande,0.22,41000000,"Tenemos algunos sistemas aislados, hay mucho desorden todavía.",En Desarrollo,Implementar un CRM para el seguimiento estructurado de ventas y clientes.
 DIAG_0605,Manufactura,Mediana,0.65,120000000,Tenemos procesos estandarizados en la mayoría de áreas clave.,Definido,Conectar los datos de producción en planta con el ERP financiero de la empresa.
 DIAG_0606,Servicios,Pequena,0.09,10000000,"Todo es manual, dependemos de una sola persona para la contabilidad.",Inicial,Digitalizar la base de datos de clientes y centralizar la agenda de servicios.
@@ -759,7 +759,7 @@ DIAG_0756,Servicios,Pequena,0.25,28000000,Estamos empezando a documentar nuestro
 DIAG_0757,Servicios,Grande,0.71,112000000,Las áreas se comunican bien gracias a nuestras herramientas tecnológicas. Nos gustaría mejorar pronto.,Definido,Automatizar la facturación y las encuestas de satisfacción post-servicio.
 DIAG_0758,Tecnologia,Pequena,0.79,52000000,Tenemos procesos estandarizados en la mayoría de áreas clave. Nos gustaría mejorar pronto.,Definido,Implementar CI/CD y pruebas automatizadas para garantizar calidad en entregas.
 DIAG_0759,Tecnologia,Mediana,0.54,106000000,Las áreas se comunican bien gracias a nuestras herramientas tecnológicas.,Definido,Implementar CI/CD y pruebas automatizadas para garantizar calidad en entregas.
-DIAG_0760,Retail,Micro,0.0,4000000,"No tenemos procesos definidos, usamos hojas de cálculo desordenadas.",Inicial,Implementar un sistema POS básico para abandonar el registro manual de ventas.
+DIAG_0760,Retail,Micro,0,4000000,"No tenemos procesos definidos, usamos hojas de cálculo desordenadas.",Inicial,Implementar un sistema POS básico para abandonar el registro manual de ventas.
 DIAG_0761,Manufactura,Grande,0.64,54000000,Las áreas se comunican bien gracias a nuestras herramientas tecnológicas.,Definido,Conectar los datos de producción en planta con el ERP financiero de la empresa.
 DIAG_0762,Retail,Micro,0.16,2000000,"El trabajo es muy empírico, no hay documentación de lo que hacemos.",Inicial,Implementar un sistema POS básico para abandonar el registro manual de ventas.
 DIAG_0763,Retail,Pequena,0.45,10000000,Intentamos usar software básico pero el equipo no se adapta del todo. Nos gustaría mejorar pronto.,En Desarrollo,Centralizar el inventario de todas las sucursales en un único sistema digital.
@@ -945,7 +945,7 @@ DIAG_0942,Servicios,Pequena,0.47,26000000,Estamos empezando a documentar nuestro
 DIAG_0943,Tecnologia,Micro,0.43,11000000,Intentamos usar software básico pero el equipo no se adapta del todo.,En Desarrollo,Integrar herramientas de tickets con repositorios y documentar APIs.
 DIAG_0944,Retail,Micro,0.13,5000000,"Todo es manual, dependemos de una sola persona para la contabilidad. Nos gustaría mejorar pronto.",Inicial,Implementar un sistema POS básico para abandonar el registro manual de ventas.
 DIAG_0945,Manufactura,Grande,0.1,8000000,"Todo es manual, dependemos de una sola persona para la contabilidad.",Inicial,Estandarizar el registro diario de mermas e inventario en plantillas compartidas.
-DIAG_0946,Servicios,Micro,0.0,8000000,"No tenemos procesos definidos, usamos hojas de cálculo desordenadas. Nos gustaría mejorar pronto.",Inicial,Digitalizar la base de datos de clientes y centralizar la agenda de servicios.
+DIAG_0946,Servicios,Micro,0,8000000,"No tenemos procesos definidos, usamos hojas de cálculo desordenadas. Nos gustaría mejorar pronto.",Inicial,Digitalizar la base de datos de clientes y centralizar la agenda de servicios.
 DIAG_0947,Manufactura,Mediana,0.88,473000000,Operamos con metodologías ágiles y sistemas integrados en la nube.,Optimizado,Implementar sensores IoT en maquinaria para mantenimiento predictivo automatizado.
 DIAG_0948,Tecnologia,Mediana,0.52,108000000,Las áreas se comunican bien gracias a nuestras herramientas tecnológicas.,Definido,Implementar CI/CD y pruebas automatizadas para garantizar calidad en entregas.
 DIAG_0949,Manufactura,Pequena,0.37,34000000,"Tenemos algunos sistemas aislados, hay mucho desorden todavía.",En Desarrollo,Implementar un sistema MRP básico para la planificación de materiales.
@@ -1018,7 +1018,7 @@ DIAG_1015,Manufactura,Mediana,0.98,443000000,Nuestros procesos se auditan solos 
 DIAG_1016,Servicios,Mediana,0.42,12000000,Estamos empezando a documentar nuestros procesos pero falta mucho. Nos gustaría mejorar pronto.,En Desarrollo,Implementar un CRM para el seguimiento estructurado de ventas y clientes.
 DIAG_1017,Tecnologia,Mediana,0.62,78000000,Tenemos procesos estandarizados en la mayoría de áreas clave.,Definido,Implementar CI/CD y pruebas automatizadas para garantizar calidad en entregas.
 DIAG_1018,Tecnologia,Mediana,0.92,249000000,"Todo está automatizado, usamos datos para mejorar continuamente.",Optimizado,Aplicar MLOps y analítica predictiva para optimizar el ciclo de vida del software.
-DIAG_1019,Retail,Mediana,0.0,9000000,"No tenemos procesos definidos, usamos hojas de cálculo desordenadas.",Inicial,Implementar un sistema POS básico para abandonar el registro manual de ventas.
+DIAG_1019,Retail,Mediana,0,9000000,"No tenemos procesos definidos, usamos hojas de cálculo desordenadas.",Inicial,Implementar un sistema POS básico para abandonar el registro manual de ventas.
 DIAG_1020,Tecnologia,Grande,0.9,458000000,El equipo es autónomo y la analítica nos guía en cada decisión.,Optimizado,Aplicar MLOps y analítica predictiva para optimizar el ciclo de vida del software.
 DIAG_1021,Tecnologia,Mediana,0.24,37000000,Hay guías básicas pero no siempre se cumplen los estándares.,En Desarrollo,Integrar herramientas de tickets con repositorios y documentar APIs.
 DIAG_1022,Manufactura,Micro,0.6,89000000,Las áreas se comunican bien gracias a nuestras herramientas tecnológicas.,Definido,Conectar los datos de producción en planta con el ERP financiero de la empresa.
@@ -1078,7 +1078,7 @@ DIAG_1075,Tecnologia,Grande,0.64,70000000,Documentamos todo y tenemos claridad d
 DIAG_1076,Servicios,Mediana,0.38,34000000,Hay guías básicas pero no siempre se cumplen los estándares.,En Desarrollo,Implementar un CRM para el seguimiento estructurado de ventas y clientes.
 DIAG_1077,Manufactura,Mediana,0.52,125000000,Las áreas se comunican bien gracias a nuestras herramientas tecnológicas. Nos gustaría mejorar pronto.,Definido,Conectar los datos de producción en planta con el ERP financiero de la empresa.
 DIAG_1078,Manufactura,Mediana,0.43,50000000,Estamos empezando a documentar nuestros procesos pero falta mucho.,En Desarrollo,Implementar un sistema MRP básico para la planificación de materiales.
-DIAG_1079,Tecnologia,Grande,1.0,360000000,Operamos con metodologías ágiles y sistemas integrados en la nube.,Optimizado,Aplicar MLOps y analítica predictiva para optimizar el ciclo de vida del software.
+DIAG_1079,Tecnologia,Grande,1,360000000,Operamos con metodologías ágiles y sistemas integrados en la nube.,Optimizado,Aplicar MLOps y analítica predictiva para optimizar el ciclo de vida del software.
 DIAG_1080,Retail,Pequena,0.39,47000000,"Tenemos algunos sistemas aislados, hay mucho desorden todavía. Nos gustaría mejorar pronto.",En Desarrollo,Centralizar el inventario de todas las sucursales en un único sistema digital.
 DIAG_1081,Tecnologia,Mediana,0.07,1000000,"Todo es manual, dependemos de una sola persona para la contabilidad.",Inicial,Mapear flujos de trabajo de desarrollo y usar repositorios de código centralizados.
 DIAG_1082,Tecnologia,Grande,0.67,103000000,Documentamos todo y tenemos claridad de los roles y responsabilidades.,Definido,Implementar CI/CD y pruebas automatizadas para garantizar calidad en entregas.
@@ -1368,13 +1368,13 @@ DIAG_1365,Retail,Pequena,0.09,8000000,"Todo es manual, dependemos de una sola pe
 DIAG_1366,Retail,Pequena,0.25,25000000,Hay guías básicas pero no siempre se cumplen los estándares.,En Desarrollo,Centralizar el inventario de todas las sucursales en un único sistema digital.
 DIAG_1367,Servicios,Pequena,0.76,111000000,Las áreas se comunican bien gracias a nuestras herramientas tecnológicas. Nos gustaría mejorar pronto.,Definido,Automatizar la facturación y las encuestas de satisfacción post-servicio.
 DIAG_1368,Manufactura,Grande,0.25,38000000,Hay guías básicas pero no siempre se cumplen los estándares.,En Desarrollo,Implementar un sistema MRP básico para la planificación de materiales.
-DIAG_1369,Servicios,Pequena,0.0,7000000,Perdemos mucha información porque todo se anota en cuadernos.,Inicial,Digitalizar la base de datos de clientes y centralizar la agenda de servicios.
+DIAG_1369,Servicios,Pequena,0,7000000,Perdemos mucha información porque todo se anota en cuadernos.,Inicial,Digitalizar la base de datos de clientes y centralizar la agenda de servicios.
 DIAG_1370,Tecnologia,Mediana,0.91,239000000,El equipo es autónomo y la analítica nos guía en cada decisión.,Optimizado,Aplicar MLOps y analítica predictiva para optimizar el ciclo de vida del software.
 DIAG_1371,Servicios,Mediana,0.28,45000000,Hay guías básicas pero no siempre se cumplen los estándares.,En Desarrollo,Implementar un CRM para el seguimiento estructurado de ventas y clientes.
 DIAG_1372,Tecnologia,Mediana,0.71,75000000,Usamos un ERP pero nos falta integración con la parte de ventas. Nos gustaría mejorar pronto.,Definido,Implementar CI/CD y pruebas automatizadas para garantizar calidad en entregas.
 DIAG_1373,Retail,Micro,0.17,6000000,"Todo es manual, dependemos de una sola persona para la contabilidad.",Inicial,Implementar un sistema POS básico para abandonar el registro manual de ventas.
 DIAG_1374,Servicios,Grande,0.62,89000000,Las áreas se comunican bien gracias a nuestras herramientas tecnológicas.,Definido,Automatizar la facturación y las encuestas de satisfacción post-servicio.
-DIAG_1375,Tecnologia,Grande,1.0,213000000,"Todo está automatizado, usamos datos para mejorar continuamente.",Optimizado,Aplicar MLOps y analítica predictiva para optimizar el ciclo de vida del software.
+DIAG_1375,Tecnologia,Grande,1,213000000,"Todo está automatizado, usamos datos para mejorar continuamente.",Optimizado,Aplicar MLOps y analítica predictiva para optimizar el ciclo de vida del software.
 DIAG_1376,Retail,Pequena,0.49,32000000,Hay guías básicas pero no siempre se cumplen los estándares.,En Desarrollo,Centralizar el inventario de todas las sucursales en un único sistema digital.
 DIAG_1377,Servicios,Mediana,0.7,104000000,Tenemos procesos estandarizados en la mayoría de áreas clave.,Definido,Automatizar la facturación y las encuestas de satisfacción post-servicio.
 DIAG_1378,Retail,Grande,0.78,96000000,Tenemos procesos estandarizados en la mayoría de áreas clave.,Definido,Integrar el ERP de inventarios con el CRM para campañas de fidelización.
@@ -1412,7 +1412,7 @@ DIAG_1409,Tecnologia,Micro,0.42,22000000,Intentamos usar software básico pero e
 DIAG_1410,Tecnologia,Mediana,0.46,34000000,"Tenemos algunos sistemas aislados, hay mucho desorden todavía.",En Desarrollo,Integrar herramientas de tickets con repositorios y documentar APIs.
 DIAG_1411,Tecnologia,Mediana,0.38,22000000,Estamos empezando a documentar nuestros procesos pero falta mucho.,En Desarrollo,Integrar herramientas de tickets con repositorios y documentar APIs.
 DIAG_1412,Servicios,Mediana,0.44,18000000,Intentamos usar software básico pero el equipo no se adapta del todo.,En Desarrollo,Implementar un CRM para el seguimiento estructurado de ventas y clientes.
-DIAG_1413,Retail,Micro,0.0,8000000,Perdemos mucha información porque todo se anota en cuadernos.,Inicial,Implementar un sistema POS básico para abandonar el registro manual de ventas.
+DIAG_1413,Retail,Micro,0,8000000,Perdemos mucha información porque todo se anota en cuadernos.,Inicial,Implementar un sistema POS básico para abandonar el registro manual de ventas.
 DIAG_1414,Manufactura,Pequena,0.4,19000000,Hay guías básicas pero no siempre se cumplen los estándares.,En Desarrollo,Implementar un sistema MRP básico para la planificación de materiales.
 DIAG_1415,Retail,Micro,0.59,138000000,Las áreas se comunican bien gracias a nuestras herramientas tecnológicas. Nos gustaría mejorar pronto.,Definido,Integrar el ERP de inventarios con el CRM para campañas de fidelización.
 DIAG_1416,Servicios,Pequena,0.06,7000000,Perdemos mucha información porque todo se anota en cuadernos. Nos gustaría mejorar pronto.,Inicial,Digitalizar la base de datos de clientes y centralizar la agenda de servicios.
@@ -1703,7 +1703,7 @@ DIAG_1700,Servicios,Micro,0.52,133000000,Tenemos procesos estandarizados en la m
 DIAG_1701,Tecnologia,Mediana,0.71,57000000,Documentamos todo y tenemos claridad de los roles y responsabilidades. Nos gustaría mejorar pronto.,Definido,Implementar CI/CD y pruebas automatizadas para garantizar calidad en entregas.
 DIAG_1702,Tecnologia,Pequena,0.37,41000000,"Tenemos algunos sistemas aislados, hay mucho desorden todavía. Nos gustaría mejorar pronto.",En Desarrollo,Integrar herramientas de tickets con repositorios y documentar APIs.
 DIAG_1703,Retail,Mediana,0.72,50000000,Las áreas se comunican bien gracias a nuestras herramientas tecnológicas.,Definido,Integrar el ERP de inventarios con el CRM para campañas de fidelización.
-DIAG_1704,Retail,Micro,0.0,10000000,"Todo es manual, dependemos de una sola persona para la contabilidad.",Inicial,Implementar un sistema POS básico para abandonar el registro manual de ventas.
+DIAG_1704,Retail,Micro,0,10000000,"Todo es manual, dependemos de una sola persona para la contabilidad.",Inicial,Implementar un sistema POS básico para abandonar el registro manual de ventas.
 DIAG_1705,Tecnologia,Pequena,0.02,1000000,"No tenemos procesos definidos, usamos hojas de cálculo desordenadas.",Inicial,Mapear flujos de trabajo de desarrollo y usar repositorios de código centralizados.
 DIAG_1706,Servicios,Grande,0.99,303000000,"Todo está automatizado, usamos datos para mejorar continuamente.",Optimizado,Utilizar analítica avanzada para hiper-personalización y recomendaciones de up-selling.
 DIAG_1707,Retail,Pequena,0.16,8000000,"El trabajo es muy empírico, no hay documentación de lo que hacemos.",Inicial,Implementar un sistema POS básico para abandonar el registro manual de ventas.
@@ -2007,7 +2007,7 @@ DIAG_2004,Manufactura,Mediana,0.29,32000000,"Tenemos algunos sistemas aislados, 
 DIAG_2005,Manufactura,Grande,0.89,351000000,Operamos con metodologías ágiles y sistemas integrados en la nube.,Optimizado,Implementar sensores IoT en maquinaria para mantenimiento predictivo automatizado.
 DIAG_2006,Tecnologia,Grande,0.79,95000000,Tenemos procesos estandarizados en la mayoría de áreas clave.,Definido,Implementar CI/CD y pruebas automatizadas para garantizar calidad en entregas.
 DIAG_2007,Retail,Grande,0.8,253000000,Operamos con metodologías ágiles y sistemas integrados en la nube.,Optimizado,Automatizar pronóstico de demanda con modelos predictivos en tiempo real.
-DIAG_2008,Manufactura,Mediana,0.0,7000000,"El trabajo es muy empírico, no hay documentación de lo que hacemos.",Inicial,Estandarizar el registro diario de mermas e inventario en plantillas compartidas.
+DIAG_2008,Manufactura,Mediana,0,7000000,"El trabajo es muy empírico, no hay documentación de lo que hacemos.",Inicial,Estandarizar el registro diario de mermas e inventario en plantillas compartidas.
 DIAG_2009,Manufactura,Pequena,0.39,38000000,"Tenemos algunos sistemas aislados, hay mucho desorden todavía.",En Desarrollo,Implementar un sistema MRP básico para la planificación de materiales.
 DIAG_2010,Tecnologia,Micro,0.03,8000000,"No tenemos procesos definidos, usamos hojas de cálculo desordenadas.",Inicial,Mapear flujos de trabajo de desarrollo y usar repositorios de código centralizados.
 DIAG_2011,Servicios,Micro,0.14,8000000,Perdemos mucha información porque todo se anota en cuadernos.,Inicial,Digitalizar la base de datos de clientes y centralizar la agenda de servicios.
@@ -2328,7 +2328,7 @@ DIAG_2325,Tecnologia,Mediana,0.89,409000000,Operamos con metodologías ágiles y
 DIAG_2326,Retail,Micro,0.25,46000000,Estamos empezando a documentar nuestros procesos pero falta mucho. Nos gustaría mejorar pronto.,En Desarrollo,Centralizar el inventario de todas las sucursales en un único sistema digital.
 DIAG_2327,Retail,Grande,0.11,8000000,"El trabajo es muy empírico, no hay documentación de lo que hacemos. Nos gustaría mejorar pronto.",Inicial,Implementar un sistema POS básico para abandonar el registro manual de ventas.
 DIAG_2328,Retail,Grande,0.91,268000000,"Todo está automatizado, usamos datos para mejorar continuamente.",Optimizado,Automatizar pronóstico de demanda con modelos predictivos en tiempo real.
-DIAG_2329,Manufactura,Pequena,0.0,1000000,Perdemos mucha información porque todo se anota en cuadernos.,Inicial,Estandarizar el registro diario de mermas e inventario en plantillas compartidas.
+DIAG_2329,Manufactura,Pequena,0,1000000,Perdemos mucha información porque todo se anota en cuadernos.,Inicial,Estandarizar el registro diario de mermas e inventario en plantillas compartidas.
 DIAG_2330,Tecnologia,Micro,0.12,1000000,"El trabajo es muy empírico, no hay documentación de lo que hacemos.",Inicial,Mapear flujos de trabajo de desarrollo y usar repositorios de código centralizados.
 DIAG_2331,Retail,Mediana,0.17,4000000,"No tenemos procesos definidos, usamos hojas de cálculo desordenadas. Nos gustaría mejorar pronto.",Inicial,Implementar un sistema POS básico para abandonar el registro manual de ventas.
 DIAG_2332,Servicios,Grande,0.84,238000000,Nuestros procesos se auditan solos con inteligencia de negocios.,Optimizado,Utilizar analítica avanzada para hiper-personalización y recomendaciones de up-selling.
@@ -2358,7 +2358,7 @@ DIAG_2355,Tecnologia,Mediana,0.36,27000000,Estamos empezando a documentar nuestr
 DIAG_2356,Tecnologia,Grande,0.81,488000000,El equipo es autónomo y la analítica nos guía en cada decisión.,Optimizado,Aplicar MLOps y analítica predictiva para optimizar el ciclo de vida del software.
 DIAG_2357,Tecnologia,Micro,0.2,5000000,"El trabajo es muy empírico, no hay documentación de lo que hacemos.",Inicial,Mapear flujos de trabajo de desarrollo y usar repositorios de código centralizados.
 DIAG_2358,Retail,Pequena,0.39,46000000,"Tenemos algunos sistemas aislados, hay mucho desorden todavía.",En Desarrollo,Centralizar el inventario de todas las sucursales en un único sistema digital.
-DIAG_2359,Manufactura,Pequena,0.0,10000000,"No tenemos procesos definidos, usamos hojas de cálculo desordenadas.",Inicial,Estandarizar el registro diario de mermas e inventario en plantillas compartidas.
+DIAG_2359,Manufactura,Pequena,0,10000000,"No tenemos procesos definidos, usamos hojas de cálculo desordenadas.",Inicial,Estandarizar el registro diario de mermas e inventario en plantillas compartidas.
 DIAG_2360,Retail,Pequena,0.04,10000000,Perdemos mucha información porque todo se anota en cuadernos. Nos gustaría mejorar pronto.,Inicial,Implementar un sistema POS básico para abandonar el registro manual de ventas.
 DIAG_2361,Retail,Micro,0.16,2000000,"El trabajo es muy empírico, no hay documentación de lo que hacemos. Nos gustaría mejorar pronto.",Inicial,Implementar un sistema POS básico para abandonar el registro manual de ventas.
 DIAG_2362,Servicios,Pequena,0.09,3000000,"No tenemos procesos definidos, usamos hojas de cálculo desordenadas.",Inicial,Digitalizar la base de datos de clientes y centralizar la agenda de servicios.
@@ -2407,7 +2407,7 @@ DIAG_2404,Tecnologia,Pequena,0.3,38000000,Hay guías básicas pero no siempre se
 DIAG_2405,Manufactura,Pequena,0.43,22000000,"Tenemos algunos sistemas aislados, hay mucho desorden todavía. Nos gustaría mejorar pronto.",En Desarrollo,Implementar un sistema MRP básico para la planificación de materiales.
 DIAG_2406,Servicios,Mediana,0.27,12000000,Hay guías básicas pero no siempre se cumplen los estándares.,En Desarrollo,Implementar un CRM para el seguimiento estructurado de ventas y clientes.
 DIAG_2407,Retail,Pequena,0.11,7000000,Perdemos mucha información porque todo se anota en cuadernos.,Inicial,Implementar un sistema POS básico para abandonar el registro manual de ventas.
-DIAG_2408,Retail,Grande,1.0,257000000,Operamos con metodologías ágiles y sistemas integrados en la nube. Nos gustaría mejorar pronto.,Optimizado,Automatizar pronóstico de demanda con modelos predictivos en tiempo real.
+DIAG_2408,Retail,Grande,1,257000000,Operamos con metodologías ágiles y sistemas integrados en la nube. Nos gustaría mejorar pronto.,Optimizado,Automatizar pronóstico de demanda con modelos predictivos en tiempo real.
 DIAG_2409,Tecnologia,Pequena,0.28,40000000,Estamos empezando a documentar nuestros procesos pero falta mucho.,En Desarrollo,Integrar herramientas de tickets con repositorios y documentar APIs.
 DIAG_2410,Retail,Grande,0.98,402000000,El equipo es autónomo y la analítica nos guía en cada decisión. Nos gustaría mejorar pronto.,Optimizado,Automatizar pronóstico de demanda con modelos predictivos en tiempo real.
 DIAG_2411,Servicios,Mediana,0.46,26000000,Intentamos usar software básico pero el equipo no se adapta del todo.,En Desarrollo,Implementar un CRM para el seguimiento estructurado de ventas y clientes.
@@ -2454,7 +2454,7 @@ DIAG_2451,Servicios,Pequena,0.5,56000000,Documentamos todo y tenemos claridad de
 DIAG_2452,Manufactura,Grande,0.65,143000000,Tenemos procesos estandarizados en la mayoría de áreas clave.,Definido,Conectar los datos de producción en planta con el ERP financiero de la empresa.
 DIAG_2453,Manufactura,Micro,0.2,4000000,Perdemos mucha información porque todo se anota en cuadernos.,Inicial,Estandarizar el registro diario de mermas e inventario en plantillas compartidas.
 DIAG_2454,Manufactura,Micro,0.19,7000000,"No tenemos procesos definidos, usamos hojas de cálculo desordenadas.",Inicial,Estandarizar el registro diario de mermas e inventario en plantillas compartidas.
-DIAG_2455,Manufactura,Pequena,0.0,7000000,"No tenemos procesos definidos, usamos hojas de cálculo desordenadas. Nos gustaría mejorar pronto.",Inicial,Estandarizar el registro diario de mermas e inventario en plantillas compartidas.
+DIAG_2455,Manufactura,Pequena,0,7000000,"No tenemos procesos definidos, usamos hojas de cálculo desordenadas. Nos gustaría mejorar pronto.",Inicial,Estandarizar el registro diario de mermas e inventario en plantillas compartidas.
 DIAG_2456,Retail,Grande,0.53,145000000,Tenemos procesos estandarizados en la mayoría de áreas clave.,Definido,Integrar el ERP de inventarios con el CRM para campañas de fidelización.
 DIAG_2457,Retail,Mediana,0.62,104000000,Las áreas se comunican bien gracias a nuestras herramientas tecnológicas.,Definido,Integrar el ERP de inventarios con el CRM para campañas de fidelización.
 DIAG_2458,Retail,Mediana,0.73,86000000,Tenemos procesos estandarizados en la mayoría de áreas clave.,Definido,Integrar el ERP de inventarios con el CRM para campañas de fidelización.
@@ -2681,7 +2681,7 @@ DIAG_2678,Manufactura,Grande,0.49,20000000,"Tenemos algunos sistemas aislados, h
 DIAG_2679,Retail,Pequena,0.36,33000000,Intentamos usar software básico pero el equipo no se adapta del todo. Nos gustaría mejorar pronto.,En Desarrollo,Centralizar el inventario de todas las sucursales en un único sistema digital.
 DIAG_2680,Tecnologia,Grande,0.61,132000000,Las áreas se comunican bien gracias a nuestras herramientas tecnológicas.,Definido,Implementar CI/CD y pruebas automatizadas para garantizar calidad en entregas.
 DIAG_2681,Manufactura,Grande,0.8,314000000,Operamos con metodologías ágiles y sistemas integrados en la nube.,Optimizado,Implementar sensores IoT en maquinaria para mantenimiento predictivo automatizado.
-DIAG_2682,Manufactura,Mediana,0.0,5000000,"No tenemos procesos definidos, usamos hojas de cálculo desordenadas.",Inicial,Estandarizar el registro diario de mermas e inventario en plantillas compartidas.
+DIAG_2682,Manufactura,Mediana,0,5000000,"No tenemos procesos definidos, usamos hojas de cálculo desordenadas.",Inicial,Estandarizar el registro diario de mermas e inventario en plantillas compartidas.
 DIAG_2683,Tecnologia,Micro,0.18,10000000,"Todo es manual, dependemos de una sola persona para la contabilidad.",Inicial,Mapear flujos de trabajo de desarrollo y usar repositorios de código centralizados.
 DIAG_2684,Tecnologia,Pequena,0.37,27000000,Intentamos usar software básico pero el equipo no se adapta del todo.,En Desarrollo,Integrar herramientas de tickets con repositorios y documentar APIs.
 DIAG_2685,Tecnologia,Mediana,0.08,2000000,"No tenemos procesos definidos, usamos hojas de cálculo desordenadas.",Inicial,Mapear flujos de trabajo de desarrollo y usar repositorios de código centralizados.
@@ -2701,7 +2701,7 @@ DIAG_2698,Retail,Mediana,0.79,138000000,Tenemos procesos estandarizados en la ma
 DIAG_2699,Manufactura,Micro,0.48,10000000,"Tenemos algunos sistemas aislados, hay mucho desorden todavía.",En Desarrollo,Implementar un sistema MRP básico para la planificación de materiales.
 DIAG_2700,Tecnologia,Pequena,0.31,24000000,Intentamos usar software básico pero el equipo no se adapta del todo.,En Desarrollo,Integrar herramientas de tickets con repositorios y documentar APIs.
 DIAG_2701,Retail,Micro,0.54,64000000,Usamos un ERP pero nos falta integración con la parte de ventas.,Definido,Integrar el ERP de inventarios con el CRM para campañas de fidelización.
-DIAG_2702,Manufactura,Micro,0.0,6000000,"No tenemos procesos definidos, usamos hojas de cálculo desordenadas.",Inicial,Estandarizar el registro diario de mermas e inventario en plantillas compartidas.
+DIAG_2702,Manufactura,Micro,0,6000000,"No tenemos procesos definidos, usamos hojas de cálculo desordenadas.",Inicial,Estandarizar el registro diario de mermas e inventario en plantillas compartidas.
 DIAG_2703,Retail,Grande,0.14,5000000,"No tenemos procesos definidos, usamos hojas de cálculo desordenadas.",Inicial,Implementar un sistema POS básico para abandonar el registro manual de ventas.
 DIAG_2704,Servicios,Grande,0.83,263000000,Nuestros procesos se auditan solos con inteligencia de negocios.,Optimizado,Utilizar analítica avanzada para hiper-personalización y recomendaciones de up-selling.
 DIAG_2705,Servicios,Mediana,0.54,50000000,Documentamos todo y tenemos claridad de los roles y responsabilidades. Nos gustaría mejorar pronto.,Definido,Automatizar la facturación y las encuestas de satisfacción post-servicio.
@@ -2852,7 +2852,7 @@ DIAG_2849,Manufactura,Micro,0.07,9000000,"Todo es manual, dependemos de una sola
 DIAG_2850,Manufactura,Grande,0.8,424000000,"Todo está automatizado, usamos datos para mejorar continuamente. Nos gustaría mejorar pronto.",Optimizado,Implementar sensores IoT en maquinaria para mantenimiento predictivo automatizado.
 DIAG_2851,Servicios,Grande,0.71,121000000,Documentamos todo y tenemos claridad de los roles y responsabilidades. Nos gustaría mejorar pronto.,Definido,Automatizar la facturación y las encuestas de satisfacción post-servicio.
 DIAG_2852,Tecnologia,Pequena,0.09,1000000,"El trabajo es muy empírico, no hay documentación de lo que hacemos.",Inicial,Mapear flujos de trabajo de desarrollo y usar repositorios de código centralizados.
-DIAG_2853,Manufactura,Grande,1.0,359000000,El equipo es autónomo y la analítica nos guía en cada decisión.,Optimizado,Implementar sensores IoT en maquinaria para mantenimiento predictivo automatizado.
+DIAG_2853,Manufactura,Grande,1,359000000,El equipo es autónomo y la analítica nos guía en cada decisión.,Optimizado,Implementar sensores IoT en maquinaria para mantenimiento predictivo automatizado.
 DIAG_2854,Retail,Grande,0.24,17000000,Estamos empezando a documentar nuestros procesos pero falta mucho.,En Desarrollo,Centralizar el inventario de todas las sucursales en un único sistema digital.
 DIAG_2855,Tecnologia,Pequena,0.27,40000000,Intentamos usar software básico pero el equipo no se adapta del todo.,En Desarrollo,Integrar herramientas de tickets con repositorios y documentar APIs.
 DIAG_2856,Servicios,Mediana,0.46,44000000,Hay guías básicas pero no siempre se cumplen los estándares. Nos gustaría mejorar pronto.,En Desarrollo,Implementar un CRM para el seguimiento estructurado de ventas y clientes.
