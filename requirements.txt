@@ -1,0 +1,31 @@
+# Web framework 
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+
+# Data validation / settings 
+pydantic==2.10.4
+pydantic-settings==2.7.1
+
+# Database / ORM 
+sqlalchemy==2.0.36
+psycopg2-binary==2.9.10
+alembic==1.14.0
+
+# Machine learning / model serving 
+tensorflow-cpu==2.18.0
+numpy==1.26.4
+scikit-learn==1.5.2
+joblib==1.4.2
+pandas==2.2.3
+
+# LLM personalization layer -
+anthropic==0.42.0
+
+#  Testing 
+pytest==8.3.4
+pytest-asyncio==0.25.0
+httpx==0.28.1
+
+#  Utilities 
+python-dotenv==1.0.1
+python-multipart==0.0.20

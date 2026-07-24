@@ -223,3 +223,6 @@ SPECS/
 
 # Archivo de instrucciones
 TASK_A_TABULAR.md
+
+.ipynb_checkpoints
+
