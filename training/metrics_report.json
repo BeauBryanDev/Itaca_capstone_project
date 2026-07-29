@@ -1,0 +1,114 @@
+{
+  "test": {
+    "accuracy": 1.0,
+    "f1_macro": 1.0,
+    "f1_weighted": 1.0,
+    "per_class": {
+      "Inicial": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 79.0
+      },
+      "En Desarrollo": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 92.0
+      },
+      "Definido": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 91.0
+      },
+      "Optimizado": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 38.0
+      },
+      "accuracy": 1.0,
+      "macro avg": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 300.0
+      },
+      "weighted avg": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 300.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        79,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        92,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        91,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        38
+      ]
+    ]
+  },
+  "boundary_analysis": {
+    "n_boundary": 8,
+    "accuracy_boundary": 1.0,
+    "accuracy_regular": 1.0,
+    "mean_confidence_boundary": 0.9999942183494568,
+    "mean_confidence_regular": 0.9999961256980896
+  },
+  "oov_robustness": {
+    "accuracy_valid_text": 1.0,
+    "accuracy_unk_text": 0.76,
+    "f1_macro_unk_text": 0.7474998639385158,
+    "prediction_agreement": 0.76
+  },
+  "ablation": [
+    {
+      "variante": "Solo tabular",
+      "accuracy": 0.9967,
+      "f1_macro": 0.9971,
+      "parametros": 7620,
+      "epocas": 54,
+      "tiempo_entrenamiento_s": 32.2,
+      "inferencia_ms_por_muestra": 0.3116
+    },
+    {
+      "variante": "Solo NLP",
+      "accuracy": 1.0,
+      "f1_macro": 1.0,
+      "parametros": 10436,
+      "epocas": 53,
+      "tiempo_entrenamiento_s": 25.3,
+      "inferencia_ms_por_muestra": 0.2961
+    },
+    {
+      "variante": "Multimodal",
+      "accuracy": 1.0,
+      "f1_macro": 1.0,
+      "parametros": 15524,
+      "epocas": 81,
+      "tiempo_entrenamiento_s": 48.9,
+      "inferencia_ms_por_muestra": 0.3315
+    }
+  ]
+}

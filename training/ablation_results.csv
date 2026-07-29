@@ -1,0 +1,4 @@
+variante,accuracy,f1_macro,parametros,epocas,tiempo_entrenamiento_s,inferencia_ms_por_muestra
+Solo tabular,0.9967,0.9971,7620,54,32.2,0.3116
+Solo NLP,1.0,1.0,10436,53,25.3,0.2961
+Multimodal,1.0,1.0,15524,81,48.9,0.3315

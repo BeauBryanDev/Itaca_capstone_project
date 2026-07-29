@@ -1,5 +1,3 @@
-"""Request schema for the diagnostic form submitted by the client."""
-
 from enum import Enum
 
 from pydantic import BaseModel, ConfigDict, Field, field_validator
@@ -56,7 +54,11 @@ class DiagnosticoRequest(BaseModel):
     @field_validator("user_response_text")
     @classmethod
     def reject_whitespace_only(cls, value: str) -> str:
+        
         """Reject free-text responses that are empty once stripped."""
+        
         if not value.strip():
+            
             raise ValueError("user_response_text must not be empty or whitespace-only")
+        
         return value
