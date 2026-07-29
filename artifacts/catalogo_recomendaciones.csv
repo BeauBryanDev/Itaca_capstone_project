@@ -1,0 +1,17 @@
+sector,nivel_madurez,recomendacion
+Manufactura,Definido,Conectar los datos de producción en planta con el ERP financiero de la empresa.
+Manufactura,En Desarrollo,Implementar un sistema MRP básico para la planificación de materiales.
+Manufactura,Inicial,Estandarizar el registro diario de mermas e inventario en plantillas compartidas.
+Manufactura,Optimizado,Implementar sensores IoT en maquinaria para mantenimiento predictivo automatizado.
+Retail,Definido,Integrar el ERP de inventarios con el CRM para campañas de fidelización.
+Retail,En Desarrollo,Centralizar el inventario de todas las sucursales en un único sistema digital.
+Retail,Inicial,Implementar un sistema POS básico para abandonar el registro manual de ventas.
+Retail,Optimizado,Automatizar pronóstico de demanda con modelos predictivos en tiempo real.
+Servicios,Definido,Automatizar la facturación y las encuestas de satisfacción post-servicio.
+Servicios,En Desarrollo,Implementar un CRM para el seguimiento estructurado de ventas y clientes.
+Servicios,Inicial,Digitalizar la base de datos de clientes y centralizar la agenda de servicios.
+Servicios,Optimizado,Utilizar analítica avanzada para hiper-personalización y recomendaciones de up-selling.
+Tecnologia,Definido,Implementar CI/CD y pruebas automatizadas para garantizar calidad en entregas.
+Tecnologia,En Desarrollo,Integrar herramientas de tickets con repositorios y documentar APIs.
+Tecnologia,Inicial,Mapear flujos de trabajo de desarrollo y usar repositorios de código centralizados.
+Tecnologia,Optimizado,Aplicar MLOps y analítica predictiva para optimizar el ciclo de vida del software.

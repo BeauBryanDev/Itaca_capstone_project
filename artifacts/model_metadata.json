@@ -1,0 +1,102 @@
+{
+  "project": "Itaca SmartDiagnostic",
+  "model_name": "itaca.keras",
+  "created_at": "2026-07-23T21:15:21",
+  "framework": {
+    "tensorflow": "2.20.0",
+    "keras": "3.13.2",
+    "python": "3.12.13"
+  },
+  "task": "clasificacion multiclase (nivel de madurez organizacional)",
+  "architecture": {
+    "type": "DNN multimodal con fusion tardia",
+    "tabular_branch": [
+      "Dense(64, relu)",
+      "BatchNormalization",
+      "Dropout(0.3)",
+      "Dense(32, relu)"
+    ],
+    "text_branch": [
+      "Embedding(150 -> 32, mask_zero=True)",
+      "GlobalAveragePooling1D",
+      "Dense(32, relu)"
+    ],
+    "head": [
+      "Concatenate",
+      "Dense(64, relu)",
+      "BatchNormalization",
+      "Dropout(0.3)",
+      "Dense(32, relu)",
+      "Dropout(0.2)",
+      "Dense(4, softmax)"
+    ],
+    "total_params": 15524
+  },
+  "inputs": {
+    "tabular_input": {
+      "shape": [
+        10
+      ],
+      "dtype": "float32",
+      "composition": "2 numericas escaladas (porcentaje_procesos_documentados, presupuesto_anual_tecnologia) + 4 one-hot sector + 4 one-hot tamano_empresa",
+      "preprocessing_artifacts": [
+        "scaler.joblib",
+        "onehot_encoder.joblib"
+      ]
+    },
+    "text_input": {
+      "shape": [
+        16
+      ],
+      "dtype": "int32",
+      "vocabulary_size": 108,
+      "max_tokens": 150,
+      "note": "El modelo de servicio (itaca_serving.keras) acepta texto crudo y aplica TextVectorization internamente."
+    }
+  },
+  "output": {
+    "shape": [
+      4
+    ],
+    "activation": "softmax",
+    "class_map": {
+      "Inicial": 0,
+      "En Desarrollo": 1,
+      "Definido": 2,
+      "Optimizado": 3
+    },
+    "class_names_ordered": [
+      "Inicial",
+      "En Desarrollo",
+      "Definido",
+      "Optimizado"
+    ]
+  },
+  "training": {
+    "optimizer": "Adam",
+    "learning_rate": 0.001,
+    "loss": "sparse_categorical_crossentropy",
+    "batch_size": 32,
+    "max_epochs": 100,
+    "epochs_run": 67,
+    "early_stopping_patience": 10,
+    "class_weights": {
+      "0": 0.9583,
+      "1": 0.8117,
+      "2": 0.8236,
+      "3": 1.9599
+    },
+    "seed": 42,
+    "training_time_seconds": 51.6,
+    "samples": {
+      "train": 2250,
+      "val": 450,
+      "test": 300
+    }
+  },
+  "metrics": {
+    "test_accuracy": 1.0,
+    "test_f1_macro": 1.0,
+    "test_f1_weighted": 1.0
+  }
+}
