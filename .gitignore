@@ -226,3 +226,6 @@ TASK_A_TABULAR.md
 
 .ipynb_checkpoints
 
+.env
+
+itaca/

@@ -20,6 +20,7 @@ def setup_logging(debug: bool = False) -> None:
     root_logger.setLevel(logging.DEBUG if debug else logging.INFO)
  
     if not _configured:
+        
         handler = logging.StreamHandler(stream=sys.stdout)
         handler.setFormatter(logging.Formatter(_LOG_FORMAT, datefmt=_DATE_FORMAT))
         root_logger.addHandler(handler)
