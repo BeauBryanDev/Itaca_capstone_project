@@ -7,7 +7,7 @@ import pytest
 from sqlalchemy import Engine, create_engine
 from sqlalchemy.orm import Session
  
-from diagnostic_model import Base, Diagnostic
+from app.models.diagnostic import Base, Diagnostic
  
  
 @pytest.fixture

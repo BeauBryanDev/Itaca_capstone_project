@@ -54,14 +54,9 @@ class RecommendationService:
         recommendation = self._index.get(key)
         
         if recommendation is None:
-            
-            raise RecommendationNotFoundError(
-                
-                f"No recommendation found for sector={sector!r}, "
-                f"maturity_level={maturity_level!r}. The catalog may be "
-                "incomplete or the input values are outside the expected set."
-            )
-            
+
+            raise RecommendationNotFoundError(sector, maturity_level)
+
         return recommendation
  
  
