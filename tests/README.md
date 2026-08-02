@@ -7,7 +7,7 @@ pip install -r requirements.txt
 pytest
 ```
 
-Everything runs offline: no test calls the Anthropic API, loads the real
+Everything runs offline: no test calls the OpenAI API, loads the real
 trained model, or touches a real database. The full suite finishes in a
 few seconds.
 

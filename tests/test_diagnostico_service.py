@@ -26,6 +26,7 @@ CALL_KWARGS = {
     "documented_processes_pct": 0.1,
     "annual_tech_budget": 3_000_000,
     "user_response_text": "El trabajo es muy empirico, no hay documentacion.",
+    "social_impact": None,
 }
 
 
@@ -78,6 +79,28 @@ def test_run_diagnostic_with_personalize_success_marks_used_personalization_true
 
     assert result.used_personalization is True
     assert result.personalized_recommendation == "Texto personalizado para el cliente."
+
+
+def test_run_diagnostic_forwards_social_impact_to_personalization_service() -> None:
+    """The optional social impact text is forwarded when personalization is requested."""
+    service = _build_service(personalized_recommendation="Texto personalizado para el cliente.")
+
+    result = service.run_diagnostic(
+        **{
+            **CALL_KWARGS,
+            "social_impact": "Apoyamos programas de alfabetizacion digital.",
+        },
+        personalize=True,
+    )
+
+    service._personalization_service.personalize.assert_called_once_with(
+        sector=CALL_KWARGS["sector"],
+        maturity_level="Inicial",
+        base_recommendation="Mapear flujos de trabajo.",
+        user_response_text=CALL_KWARGS["user_response_text"],
+        social_impact="Apoyamos programas de alfabetizacion digital.",
+    )
+    assert result.used_personalization is True
 
 
 def test_run_diagnostic_with_personalize_failure_reports_used_personalization_false() -> None:
