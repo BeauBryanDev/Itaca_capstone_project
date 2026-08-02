@@ -4,7 +4,7 @@ Sistema de autodiagnóstico empresarial con Deep Learning — Proyecto Capstone,
 
 ## Descripción
 
-Ítaca, empresa de consultoría, necesita escalar su capacidad de diagnóstico sin aumentar proporcionalmente su equipo humano. Este sistema automatiza la primera fase del ciclo de consultoría: el cliente diligencia un formulario web, una red neuronal profunda (DNN) multimodal clasifica el nivel de madurez de su negocio (Inicial, En Desarrollo, Definido, Optimizado) y un motor de recomendaciones entrega una acción concreta según su sector. Opcionalmente, una capa de personalización con LLM (Claude Haiku) adapta la redacción de la recomendación al texto libre del cliente.
+Ítaca, empresa de consultoría, necesita escalar su capacidad de diagnóstico sin aumentar proporcionalmente su equipo humano. Este sistema automatiza la primera fase del ciclo de consultoría: el cliente diligencia un formulario web, una red neuronal profunda (DNN) multimodal clasifica el nivel de madurez de su negocio (Inicial, En Desarrollo, Definido, Optimizado) y un motor de recomendaciones entrega una acción concreta según su sector. Opcionalmente, una capa de personalización con LLM (OpenAI gpt-4o) adapta la redacción de la recomendación al texto libre del cliente.
 
 ## Arquitectura
 
@@ -83,7 +83,7 @@ source itaca/bin/activate        # Windows: itaca\Scripts\activate
 pip install -r requirements.txt
 
 # copiar los 7 artefactos de la tabla anterior en artifacts/
-# crear .env con ANTHROPIC_API_KEY si se activa la personalización (Camino 2)
+# crear .env con OPENAI_API_KEY si se activa la personalización (Camino 2)
 
 uvicorn app.main:app --reload --port 8005
 ```
