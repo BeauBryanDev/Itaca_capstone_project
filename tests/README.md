@@ -24,23 +24,23 @@ pytest tests/test_router_diagnostico.py::test_get_diagnostico_with_unknown_id_re
 directory instead of depending on the real, multi-hundred-KB model
 downloaded from Google Drive:
 
-- **`itaca_serving.keras`** — a tiny multimodal Keras model built once per
+- **`itaca_serving.keras`**: a tiny multimodal Keras model built once per
   test session (`shared_serving_model_path`) and copied into each test's
   own directory. It matches the real serving model's input/output
   contract exactly (`tabular_input` shape `(10,)`, `text_input` shape
   `(1,)` string, 4-class softmax output) but has random, untrained
-  weights — these tests verify plumbing (shapes, wiring, error handling),
-  not predictive accuracy, which is validated separately in
+  weights, since these tests verify plumbing (shapes, wiring, error
+  handling), not predictive accuracy, which is validated separately in
   `training/Itaca_model_training.ipynb` and `training/metrics_report.json`.
-- **`scaler.joblib` / `onehot_encoder.joblib`** — a `StandardScaler` and
+- **`scaler.joblib` / `onehot_encoder.joblib`**: a `StandardScaler` and
   `OneHotEncoder` fitted on a few rows of representative dummy data,
   covering every real sector and company size.
-- **`class_map.json`** — the real four-class mapping the whole system
+- **`class_map.json`**: the real four-class mapping the whole system
   depends on.
-- **`catalogo_recomendaciones.csv`** — all 16 `(sector, maturity_level)`
+- **`catalogo_recomendaciones.csv`**: all 16 `(sector, maturity_level)`
   combinations, so a fixture-model prediction always resolves to a
   recommendation regardless of which class it lands on.
-- **`model_metadata.json`** — a fixed `model_name` (`itaca-fixture-model`)
+- **`model_metadata.json`**: a fixed `model_name` (`itaca-fixture-model`)
   that router tests assert against.
 
 `build_artifacts_dir` is a factory fixture: call it with

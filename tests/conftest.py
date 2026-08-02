@@ -40,9 +40,9 @@ def _build_tiny_serving_model():
 
     Mirrors the real serving model's I/O contract exactly: a
     ``tabular_input`` of shape (10,) float32, a ``text_input`` of shape (1,)
-    string, and a 4-class softmax output. Random weights are fine here —
-    these fixtures test the plumbing (shapes, dtypes, service wiring), not
-    predictive accuracy, which is validated separately in the training
+    string, and a 4-class softmax output. Random weights are fine here,
+    since these fixtures test the plumbing (shapes, dtypes, service wiring),
+    not predictive accuracy, which is validated separately in the training
     notebook and metrics report.
     """
     import tensorflow as tf
