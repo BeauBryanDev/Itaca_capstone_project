@@ -34,11 +34,12 @@ def create_diagnostico(
                 if hasattr(payload.company_size, "value")
                 else payload.company_size
             ),
-            documented_processes_pct=payload.documented_processes_pct,
-            annual_tech_budget=payload.annual_tech_budget,
-            user_response_text=payload.user_response_text,
-            personalize=payload.personalize,
-        )
+        documented_processes_pct=payload.documented_processes_pct,
+        annual_tech_budget=payload.annual_tech_budget,
+        user_response_text=payload.user_response_text,
+        social_impact=payload.social_impact,
+        personalize=payload.personalize,
+    )
     except RecommendationNotFoundError as exc:
         
         logger.error("Recommendation lookup failed: %s", exc)

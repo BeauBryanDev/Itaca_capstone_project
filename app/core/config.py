@@ -35,10 +35,10 @@ class Settings(BaseSettings):
     # Full SQLAlchemy connection string. Defaults to a local SQLite file
     database_url: str = f"sqlite:///{_PROJECT_ROOT / 'itaca_smartdiag.db'}"
  
-    #  LLM personalization layer  
+    #  LLM personalization layer
     personalization_enabled: bool = False
-    anthropic_api_key: str | None = Field(default=None, repr=False)
-    anthropic_model: str = "claude-haiku-4-5"
+    openai_api_key: str | None = Field(default=None, repr=False)
+    openai_model: str = "gpt-4o"
  
     #  CORS  
     # Origins allowed to call this API from a browser.  
@@ -51,10 +51,10 @@ class Settings(BaseSettings):
             ValueError: If personalization_enabled is True but no API key
                 was provided.
         """
-        if self.personalization_enabled and not self.anthropic_api_key:
+        if self.personalization_enabled and not self.openai_api_key:
             raise ValueError(
-                "personalization_enabled is True but anthropic_api_key is "
-                "not set. Provide ANTHROPIC_API_KEY as an environment "
+                "personalization_enabled is True but openai_api_key is "
+                "not set. Provide OPENAI_API_KEY as an environment "
                 "variable, or set PERSONALIZATION_ENABLED=false."
             )
  

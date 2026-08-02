@@ -56,7 +56,8 @@ class DiagnosticService:
         documented_processes_pct: float,
         annual_tech_budget: int,
         user_response_text: str,
-        personalize: bool,
+        personalize: bool = False,
+        social_impact: str | None = None,
     ) -> DiagnosticResult:
         
         """Execute the full diagnostic pipeline and return the assembled result.
@@ -89,6 +90,7 @@ class DiagnosticService:
                 maturity_level=inference_result.maturity_level,
                 base_recommendation=base_recommendation,
                 user_response_text=user_response_text,
+                social_impact=social_impact,
             )
 
         used_personalization = personalized_recommendation is not None
@@ -113,4 +115,3 @@ class DiagnosticService:
         )
         
         return result
-

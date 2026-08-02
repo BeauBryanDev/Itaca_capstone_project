@@ -230,3 +230,8 @@ TASK_A_TABULAR.md
 
 itaca/
 itaca_smartdiag.db
+CLAUDE.md
+
+# Frontend
+node_modules/
+frontend/dist/
