@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Favicon. Source: SVG Repo (svgrepo.com), recolored to the Itaca palette.
+     Sits on a filled tile so it stays legible on light and dark tab bars. -->
+<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <rect width="24" height="24" rx="5" fill="#181A1B" />
+  <g transform="translate(12 12) scale(0.82) translate(-12 -12)">
+    <path d="M15,11H9L8,21h8Zm1-4H8l4-4Z" fill="#1393B2" />
+    <path d="M15,7H9v4h6Z" fill="#998000" />
+    <path
+      d="M15,7H9v4h6Zm0,4H9L8,21h8Zm1-4H8l4-4ZM6,21H18"
+      fill="none"
+      stroke="#F5F5F5"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="1.6"
+    />
+  </g>
+</svg>
