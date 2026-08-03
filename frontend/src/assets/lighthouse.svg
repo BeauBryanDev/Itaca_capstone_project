@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Source: SVG Repo (svgrepo.com). Recolored to the Itaca palette and
+     stripped of its fixed 800px size so it can scale as a watermark. -->
+<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <path d="M15,11H9L8,21h8Zm1-4H8l4-4Z" fill="#1393B2" />
+  <path d="M15,7H9v4h6Z" fill="#998000" />
+  <path
+    d="M15,7H9v4h6Zm0,4H9L8,21h8Zm1-4H8l4-4ZM6,21H18"
+    fill="none"
+    stroke="#F5F5F5"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    stroke-width="2"
+  />
+</svg>
