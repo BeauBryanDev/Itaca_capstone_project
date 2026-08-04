@@ -66,13 +66,32 @@ Copiados desde Google Drive tras el entrenamiento en Colab. Son los únicos arch
 | `class_weights.json` | Preprocessing (Tarea A) | Pesos de clase usados en entrenamiento (no se usa en runtime) |
 | `catalogo_recomendaciones.csv` | ETL Stage 1 | Motor de recomendaciones (16 combinaciones sector × nivel) |
 | `model_metadata.json` | Entrenamiento | Versión del modelo, hiperparámetros, métricas — trazabilidad en las respuestas de la API |
+---
+## SPA 
+```
+frontend/src/
+├── components/     # Navbar, Footer, CompanyForm, ProgressLoader, StatCard,
+│                   # RecommendationCard, DoughnutChart, ScoreChart, Button, Input...
+├── pages/          # DiagnosisPage → LoadingPage → DashboardPage
+├── services/       # api.js (cliente Axios), diagnosisService.js (llamadas a la API)
+├── store/          # DiagnosisContext.jsx (estado global: formData, loading, results)
+├── hooks/          # useDiagnosis.js
+└── data/           # sectors.js, companySizes.js (listas del formulario)
+```
+ 
+- **Navegación:** `DiagnosisPage → LoadingPage → DashboardPage`, con React Router, sin recarga de página.
+- **Estado global:** React Context (`DiagnosisContext`), sin Redux ni Zustand — innecesarios para el alcance de tres vistas.
+- **Comunicación con el backend:** Axios, con la URL de la API configurable por variable de entorno (`VITE_API_URL`), apuntando por defecto a `http://localhost:8005`.
+- **Gráficos:** Recharts (`DoughnutChart` para la distribución de probabilidades, `ScoreChart` para la puntuación general), responsivos vía `ResponsiveContainer`.
+- **Paleta institucional:** header/footer `#1393B2` · fondo `#181A1B` · paneles `#25282A` · acento dorado `#998000` · acción/botones `#B50F19`.
+
 
 ## Uso rápido
 
 ### ETL + EDA
 
 ```bash
-python ETL/EtL_Stage1.ipynb   # o su versión .py exportada
+python ETL/EtL_Stage1.ipynb 
 ```
 
 ### Backend
@@ -82,10 +101,11 @@ python -m venv itaca
 source itaca/bin/activate        # Windows: itaca\Scripts\activate
 pip install -r requirements.txt
 
-# copiar los 7 artefactos de la tabla anterior en artifacts/
-# crear .env con OPENAI_API_KEY si se activa la personalización (Camino 2)
+
+# crear .env con OPENAI_API_KEY si se activa la personalización 
 
 uvicorn app.main:app --reload --port 8005
+uvicorn app.main:app --reload --host 0.0.0.0 --port 8005
 ```
 
 Documentación interactiva: `http://localhost:8005/docs`
@@ -98,11 +118,15 @@ pytest
 
 ### Frontend
 
+Requisitos: Node.js 22 y npm. Si no los tiene instalado, descárguelos desde nodejs.org (versión LTS 22.x) antes de continuar — el frontend no ejecutará sin ellos.
+
 ```bash
 cd frontend
 npm install
 npm run dev
 ```
+La aplicación queda disponible en http://localhost:5173, conectada automáticamente al backend en el puerto 8005.
+
 
 ## Stack y versiones clave
 
