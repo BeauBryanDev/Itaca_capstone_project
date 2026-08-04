@@ -1,6 +1,7 @@
 from __future__ import annotations
  
 from fastapi import APIRouter, Depends, HTTPException, status
+from sqlalchemy.exc import SQLAlchemyError
 from sqlalchemy.orm import Session
  
 from app.core.logging import get_logger
@@ -72,9 +73,16 @@ def create_diagnostico(
         model_version=result.model_version,
         created_at=result.created_at,
     )
-    db.add(record)
-    db.commit()
- 
+    # Persistence below inference and recommendation
+    try:
+        db.add(record)
+        db.commit()
+    except SQLAlchemyError as exc:
+        db.rollback()
+        logger.error(
+            "Failed to persist diagnostic %s: %s", result.diagnostic_id, exc
+        )
+
     return DiagnosticoResponse(
         diagnostico_id=result.diagnostic_id,
         maturity_level=result.maturity_level,

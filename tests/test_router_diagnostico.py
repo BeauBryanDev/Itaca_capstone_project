@@ -1,13 +1,12 @@
 """Tests for the /diagnostico endpoints (app.routers.diagnostico).
-
-Uses the full TestClient fixture: a real app, real lifespan, fixture
-artifacts, and an isolated on-disk SQLite database.
 """
-
 from __future__ import annotations
 
+import pytest
 from fastapi.testclient import TestClient
 from sqlalchemy import Engine, text
+from sqlalchemy.exc import OperationalError
+from sqlalchemy.orm import Session
 
 VALID_PAYLOAD = {
     "company_name": "Textiles del Norte S.A.S.",
@@ -117,3 +116,31 @@ def test_successful_post_persists_a_row_in_the_database(
     assert row is not None
     assert row.sector == "Manufactura"
     assert row.predicted_maturity_level == created["maturity_level"]
+
+
+def test_post_still_returns_result_when_persistence_fails(
+    client: TestClient, monkeypatch: pytest.MonkeyPatch
+) -> None:
+    """A failed database commit must not discard a valid diagnostic.
+
+    Persistence sits below inference and recommendation in the
+    cut-priority order, so a write failure degrades to a non-persisted
+    response instead of a 500.
+    """
+
+    def failing_commit(self: Session) -> None:
+        raise OperationalError("INSERT", {}, Exception("database is locked"))
+
+    monkeypatch.setattr(Session, "commit", failing_commit)
+
+    response = client.post("/diagnostico", json=VALID_PAYLOAD)
+
+    assert response.status_code == 201
+    body = response.json()
+    assert body["maturity_level"] in {
+        "Inicial",
+        "En Desarrollo",
+        "Definido",
+        "Optimizado",
+    }
+    assert body["base_recommendation"]
